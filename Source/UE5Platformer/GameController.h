@@ -23,9 +23,15 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION()
+	void OpenMenu();
+
+
 private:
 
-	bool g_showMenu = true; 
+	APlayerController* PC;
+	bool g_showMenu = false;
 	void ShowMenuWindow();
+
 
 };

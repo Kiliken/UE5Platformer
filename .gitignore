@@ -81,6 +81,7 @@ DerivedDataCache/*
 *.ignore
 *.zip
 /Plugins/
+/GameBuild/
 
 # Clean Contents
 /Content/StarterContent/
