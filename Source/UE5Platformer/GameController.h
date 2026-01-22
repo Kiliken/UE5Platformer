@@ -31,7 +31,9 @@ private:
 
 	APlayerController* PC;
 	bool g_showMenu = false;
+	float g_timer = 0.f;
 	void ShowMenuWindow();
+	void ShowTimer();
 
 
 };
